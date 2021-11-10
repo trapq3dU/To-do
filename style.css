@@ -1,0 +1,78 @@
+.create {
+    display: block;
+    background-color: rgb(216, 216, 214);
+    margin: 20px auto;
+    padding: 20px;
+    width: 400px;
+    border: 2px solid rgb(80, 79, 79);
+    box-shadow: 5px 5px 10px 5px rgb(54, 54, 54);
+}
+
+h1 {
+
+    margin: 10px;
+}
+
+input {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: 350px;
+    font-size:medium;
+    font-weight: bold;
+}
+
+.addBtn {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: 1px;
+}
+
+.todoContainer {
+    align-self: auto;
+    display: block;
+    border: 2px solid rgb(80, 79, 79);
+    background-color: rgb(185, 185, 183);
+    margin: 0 auto;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 5px 5px 10px 5px rgb(54, 54, 54);
+}
+
+.todo {
+display: inline-block;
+background-color: rgb(216, 216, 214);
+width:380px;
+height: fit-content;
+margin: 5px;
+padding-left: 10px;
+border-radius: 20px;
+border: 1px solid rgb(102, 101, 101);
+}
+
+h3 {
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 330px;
+}
+.deleteBtn {
+    border: none;
+    height: inherit;
+    display: inline-block;
+    background-color: rgba(155, 155, 151, 0.342);
+    margin: 10px;
+    padding: 10px;
+    color: rgb(2, 2, 2);
+    border-radius: 15px;
+    font-weight: bolder;
+}
+.deleteBtn:hover {
+    color: rgb(201, 6, 6);
+    background-color: rgb(160, 160, 156);
+}
