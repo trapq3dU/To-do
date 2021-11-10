@@ -10,7 +10,7 @@ function onSubmit (){
         clear()
     }
     else {
-        alert("You can't add empty todo")
+        alert("You can't add empty to-do")
         return
     }
     return    
