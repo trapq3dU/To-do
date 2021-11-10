@@ -2,7 +2,7 @@
 document.getElementById("createTodo").focus();
 
 function onSubmit (){
-    const newTodo = document.getElementById("createTodo").value;
+    const newTodo = document.getElementById("createTodo").value.trim();
     const str = newTodo.charAt(0).toUpperCase() + newTodo.slice(1);
     
     if (str.length >= 1) {
