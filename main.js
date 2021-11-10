@@ -5,9 +5,15 @@ function onSubmit (){
     const newTodo = document.getElementById("createTodo").value;
     const str = newTodo.charAt(0).toUpperCase() + newTodo.slice(1);
     
-    if(str.length >= 1) {
-        showTodo(str);
-        clear()
+    if (str.length >= 1) {
+        if(str.length <= 32) {
+            showTodo(str);
+            clear()
+        }
+        else {
+            alert("Your to-do is having more than 32 characters")
+        }
+
     }
     else {
         alert("You can't add empty to-do")
