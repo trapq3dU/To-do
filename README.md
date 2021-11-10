@@ -10,4 +10,4 @@
 
 # *Hosted link:*
 
-This project hosted [here](https://trapq3du-simple-calculator.netlify.app/ "Todo App")
+This project hosted [here](https://trapq3du-todo-app.netlify.app/ "Todo App")
